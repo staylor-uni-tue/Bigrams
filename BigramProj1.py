@@ -30,5 +30,6 @@ def putbigramstofile(filename, outputfile):
         for n in sortedbigramcount:
             f.write('%s:%s\n' % n)
 
+#these I just use to test it 
 #print(makebigramscount('communist_manifesto.txt'))
 putbigramstofile('communist_manifesto.txt', 'bigram_communist_manifesto.txt')
